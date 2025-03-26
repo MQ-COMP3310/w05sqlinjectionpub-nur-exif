@@ -11,7 +11,15 @@ import java.util.logging.Level;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
-/**
+/**logger.log(Level.INFO, "Wordle created and connected.");
+logger.log(Level.SEVERE, "Not able to connect. Sorry!");
+logger.log(Level.INFO, "Wordle structures in place.");
+logger.log(Level.SEVERE, "Not able to launch. Sorry!");
+logger.log(Level.SEVERE, "Not able to load . Sorry!");
+logger.log(Level.SEVERE, e.getMessage());
+logger.log(Level.INFO, "You've guessed '" + guess+"'.");
+logger.log(Level.INFO, "Success! It is in the the list.");
+logger.log(Level.SEVERE, "Sorry. This word is NOT in the the list.");
  *
  * @author sqlitetutorial.net
  */
